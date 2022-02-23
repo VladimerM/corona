@@ -39,6 +39,9 @@ body {
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+html {
+  scroll-behaviour: smoth;
+}
 
 input,
 button,
