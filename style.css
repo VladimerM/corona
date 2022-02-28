@@ -100,6 +100,10 @@ h6 {
   overflow: hidden;
 }
 
+header {
+  max-width: 1057px;
+}
+
 .head {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -111,10 +115,11 @@ h6 {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 106px;
-  width: 1057px;
+  width: 100%;
   position: fixed;
   z-index: 100;
   background-color: #fcfdfd;
+  padding: 0 25px 0 0;
 }
 
 @media (max-width: 617px) {
